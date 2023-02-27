@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  width: 400px;
+  height: 400px;
+  background-color: #192841;
+  color: #ffffff;
+  text-align: center;
+}
+#header {
+  margin-top: 45px;
+  font-size: 2rem;
+}
+#number {
+  margin: 30px;
+  font-size: 4rem;
+}
+.btn {
+  font-size: 1.3rem;
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+}
+.btn:active {
+  opacity: 0.6;
+}
+#incremento {
+  background-color: #bbc592;
+}
+#decremento {
+  background-color: #0097a9;
+}
+#reset {
+  background-color: #e03c31;
+}
